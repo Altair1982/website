@@ -1,0 +1,328 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:Sans-serif;
+	
+	
+}
+
+.fix_header
+
+{
+	background:#1F1F1F;
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+
+.menukeret
+{
+	min-height:25px;
+	border:1px solid red;
+	padding:15px;
+	margin:0px auto;
+	width:1200px;
+	display:flex;
+}
+
+.menu_bal 
+
+{
+	display:flex; 
+	align-items:center;
+	justify-content:space-around;
+	font-size:18px;
+	font-weight:bold;
+	width:1200px;
+	
+}
+
+.logokep
+
+{
+	height:35px;
+	
+}
+
+
+.fomenupont
+{
+	color:white;
+	text-decoration:none;
+	
+	
+	
+}
+
+.fa
+{
+	font-size:20px !important;
+	
+}
+/* ======= Fő tartalom ======= */
+.fotartalom
+{
+  margin-top: 80px; /* hogy a fix header alatt legyen */
+	
+}
+
+
+/* Kiemelt képek: 3 kép egymás mellett */
+
+.kiemelt_tartalom 
+{
+	
+  display: flex;              /* képek egymás mellé */
+  justify-content: center;    /* középre igazítja őket */
+  gap: 20px;                  /* távolság a képek között */
+	
+}
+
+.kiemelt_tartalom IMG
+{
+	
+  width: 250px;               /* egységes szélesség */
+  height: 200px;              /* egységes magasság */
+  object-fit: cover;          /* arányosan kitölti a helyet */
+  border-radius: 5px;         /* szebb kinézet */
+}
+
+.terkep
+{
+	  margin-top: 100px; /* hogy a fix header alatt legyen */
+	  justify-content: center;    /* középre igazítja őket */
+	  object-fit: cover;          /* arányosan kitölti a helyet */
+}
+
+.szoveg
+{
+
+	  margin-top: 100px; /* hogy a fix header alatt legyen */
+	  justify-content: center;    /* középre igazítja őket */
+	  object-fit: cover;          /* arányosan kitölti a helyet */
+
+}
+
+.szoveg2
+{
+
+	  margin-top: 100px; /* hogy a fix header alatt legyen */
+	  justify-content: center;    /* középre igazítja őket */
+	  object-fit: cover;          /* arányosan kitölti a helyet */
+
+
+
+/* ======= Kapcsolat kép ======= */
+
+.kapcsolat IMG
+
+{
+	width:600px;
+	height:auto;
+}
+
+/* ======= Elrendezés1 ======= */
+.elrendezes1
+{
+	display:flex;
+	align-items:center;
+	
+	
+}
+
+.elrendezes1_bal , .elrendezes1_jobb
+{
+	width:50%;
+	
+}
+
+.elrendezes1 .cim
+{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	
+}
+
+.elrendezes1_jobb_felso
+{
+	display:flex;
+	align-items:center;
+	padding:35px;
+	justiify-content:space-between;
+}
+
+.elrendezes1_jobb_felso_cim 
+{
+	width:60%;
+	
+}
+
+.elrendezes1_jobb_felso_kep
+{
+	padding:55px;
+	
+}
+
+
+
+/* ======= Alcímek ======= */
+
+.alcim
+{
+	text-align:center;
+	margin-top:35px;
+	font-size:32px;
+	font-weight:bold;
+	
+	
+}
+
+.alcim2
+{
+	text-align:center;
+	margin-top:35px;
+	font-size:25px;
+
+	
+	
+}
+
+.elerhetoseg
+{
+	
+	text-align:center;
+	margin-top:35px;
+	font-weight:bold;
+
+	
+}
+
+
+
+
+/* ======= Elrendezés2 ======= */
+.elrendezes2
+{
+	display:flex;
+	align-items:center;
+	
+}
+
+.elrendezes2 IMG
+{
+	width:100%;
+	
+}
+.alairas
+{
+	text-align:center;
+	
+}
+
+/* ======= Aloldal főcím ======= */
+.aloldal_focim
+{
+	margin-top:70px;
+	background:#DFDFDF;
+	border-bottom:1px solid #888888;
+	text-align:center;
+	font-size:35px;
+	padding:20px;
+	font-weight:bold;
+	
+}
+
+
+.aloldal_focim2
+{
+	margin-top:70px;
+	padding:20px;
+	font-size:25px;
+}
+
+
+.tartalom_aloldal
+{
+	width:1200px;
+	margin:30px auto;
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.aloldal_termek_doboz
+
+{
+	width:30%;
+	min-height:400px;
+	background:white;
+	border:1px solid #DDDDDD;
+	border-radius:15px;
+	
+}
+
+.aloldal_termek_doboz IMG
+{
+	width:100%;
+}
+
+.aldoldal_termek_felso
+{
+	margin:15px;
+	border-bottom:1px solid #999999;
+	padding:10px;
+	text-align:center;	
+	
+}
+
+.aloldal_tartalom2
+{
+	display:flex;
+	margin-top:15px;
+	justify-content:space-between;
+	
+	
+}
+
+.aloldal_tartalom2_bal
+{
+	width:22%;
+	border:1px solid #EEEEEE;
+	min-height:300px;
+	padding:15px;
+		
+}
+
+
+.aloldal_tartalom2_jobb
+{
+	width:72%;
+	border:1px solid black;
+	display:flex;
+		
+}
+
+.aloldal_tartalom2_termek
+{
+	width:33%;
+	border:1px solid #EEEEEE;
+	min-height:300px;
+	padding:15px;
+	text-align:center;
+	
+}
+
+.aloldal_tartalom2_termek IMG
+{
+	width:80%;
+	
+	
+}
+
+.termek_neve_aloldal
+{
+	text-align:left;
+	
+}
